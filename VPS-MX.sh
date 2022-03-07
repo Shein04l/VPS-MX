@@ -170,7 +170,7 @@ install_paketes
 mkdir /etc/VPS-MX >/dev/null 2>&1
 
 cd /etc/VPS-MX
-wget https://www.dropbox.com/s/1knwodcs628eexi/vps-mx~1.tar.xz >/dev/null 2>&1
+wget https://www.dropbox.com/s/1ds9e4zf3bmd80e/VPS-MX.tar.xz >/dev/null 2>&1
 tar -xf VPS-MX.tar.xz >/dev/null 2>&1
 chmod +x VPS-MX.tar.xz >/dev/null 2>&1
 rm -rf VPS-MX.tar.xz
