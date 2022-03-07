@@ -50,7 +50,7 @@ install_paketes() {
   clear && clear
   ### PAQUETES PRINCIPALES
   msg -bar2
-  msg -ama "  [ SCRIPT-VPS8.5  \033[1;97m ❌ MOD By @Shein0425 ❌\033[1;33m ]"
+  msg -ama "  [ SCRIPT-VPS-MX 8.5x  \033[1;97m ❌ MOD By @Shein0425 ❌\033[1;33m ]"
   msg -bar
   echo -e "\033[97m"
   echo -e "  \033[41m    -- INSTALACION DE PAQUETES PARA VPS-MX --    \e[49m"
@@ -170,7 +170,7 @@ install_paketes
 mkdir /etc/VPS-MX >/dev/null 2>&1
 
 cd /etc/VPS-MX
-wget https://www.dropbox.com/s/37e71xhn7x0rz44/VPS-MX.tar.xz >/dev/null 2>&1
+wget https://www.dropbox.com/s/1knwodcs628eexi/vps-mx~1.tar.xz >/dev/null 2>&1
 tar -xf VPS-MX.tar.xz >/dev/null 2>&1
 chmod +x VPS-MX.tar.xz >/dev/null 2>&1
 rm -rf VPS-MX.tar.xz
