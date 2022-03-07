@@ -217,10 +217,10 @@ wget -O /bin/rebootnb https://raw.githubusercontent.com/lacasitamx/VPSMX/master/
 chmod +x /bin/rebootnb
 wget -O /bin/resetsshdrop https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Utilidad/resetsshdrop &>/dev/null
 chmod +x /bin/resetsshdrop
-wget -O /etc/versin_script_new https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Vercion &>/dev/null
+wget -O /etc/versin_script_new https://raw.githubusercontent.com/Shein04l/vpsmx/main/vercion &>/dev/null
 grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >>/etc/ssh/sshd_config
-v1=$(curl -sSL "https://raw.githubusercontent.com/lacasitamx/VPSMX/master/SCRIPT-8.4/Vercion") 
+v1=$(curl -sSL "https://raw.githubusercontent.com/Shein04l/vpsmx/main/vercion") 
 echo "$v1" > /etc/versin_script 
 msg -bar2
 echo '#!/bin/sh -e' >/etc/rc.local
